@@ -8,7 +8,7 @@ $baseColor: #232338;
 $subColor: #2c2e46;
 $thirdColor: #373e56;
 $redColor: #f5365c;
-$greenColor: #2dce89;
+$greenColor: #4eaf85;
 $blueColor: #298ef3;
 $accentColor: #e24fcc;
 $baseH2Size: 22px;
@@ -98,6 +98,11 @@ code {
 }
 .text-info {
   color: $blueColor;
+}
+.text-primary {
+  i & {
+    color: $mainFontColor;
+  }
 }
 .alert-warning {
   background-color: $redColor;
@@ -260,4 +265,10 @@ input[type=number],
   label & {
     margin-bottom: 0 !important;
   }
+}
+
+// ILP入金
+.bg-success {
+  background-color: $thirdColor;
+  color: #ffffff;
 }
