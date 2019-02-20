@@ -76,8 +76,9 @@ code {
   color: #ff7e9f;
   background-color: #1a1725;
   a {
-    color: $baseColor;
+    color: $mainFontColor;
     text-decoration: none;
+    border-bottom: 1px solid $mainFontColor;
   }
 }
 .text-danger {
@@ -106,16 +107,6 @@ code {
     background: $baseColor;
     padding-left: 0;
     padding-right: 0;
-    .panel-body {
-      > h5 {
-        font-size: 14px;
-        background: rgba(255,255,255,.4);
-        color: $baseColor;
-        padding: 5px;
-        border-radius: 2px;
-        font-weight: 400;
-      }
-    }  
     .img-responsive {
       background: $mainFontColor;
     }
@@ -124,7 +115,16 @@ code {
     }
   }
 }
-
+.panel-body {
+  > h5 {
+    font-size: 14px;
+    background: rgba(255,255,255,.4);
+    color: $baseColor;
+    padding: 5px;
+    border-radius: 2px;
+    font-weight: 400;
+  }
+}
 > .panel-heading {
   .panel-warning & {
     background: $redColor;
@@ -143,7 +143,7 @@ code {
   background: $subColor;
   color: $mainFontColor;
   text-decoration: none;
-  border: 1px solid #3a3a3a;
+  border: 1px solid $baseColor;
 }
 a.list-group-item .list-group-item-heading,
 button.list-group-item .list-group-item-heading {
