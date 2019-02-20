@@ -198,3 +198,10 @@ button.list-group-item:focus {
   color: $mainFontColor;
   background-color: $baseColor;
 }
+
+.well {
+  background-color: $thirdColor;
+  > * {
+    margin: 0;
+  }
+}
