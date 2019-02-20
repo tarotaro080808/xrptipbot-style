@@ -168,3 +168,12 @@ a.list-group-item, button.list-group-item {
 .table>tfoot>tr>td {
   border-top: 1px solid rgba(255,255,255,.1);
 }
+
+a.list-group-item:hover,
+button.list-group-item:hover,
+a.list-group-item:focus,
+button.list-group-item:focus {
+  text-decoration: none;
+  color: $mainFontColor;
+  background-color: $baseColor;
+}
