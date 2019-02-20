@@ -74,6 +74,8 @@ a {
 .container {
   .jumbotron {
     background: $baseColor;
+    padding-left: 0;
+    padding-right: 0;
     .panel-body {
       > h5 {
         font-size: 14px;
