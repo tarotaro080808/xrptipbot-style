@@ -97,6 +97,11 @@ code {
   background-color: $greenColor;
   &:hover {
     transform: translateY(-1px);
+    background-color: $greenColor;
+  }
+  &:active:hover {
+    transform: translateY(-1px);
+    background-color: $greenColor;
   }
   .text-dark {
     color: $mainFontColor;
