@@ -33,7 +33,7 @@ $titleFontFamily: 'Roboto Condensed', 'Noto Sans JP', sans-serif;
   color: $mainFontColor;
   text-decoration: none;
   &:hover {
-    background: $mainFontColor;
+    background: $thirdColor;
     color: $baseColor;
   }
 }
@@ -65,10 +65,9 @@ h3, .h3 {
   }
 }
 a {
-  color: $mainFontColor;
-  text-decoration: underline;
+  color: #fff;
   &:hover, &:focus {
-    color: $mainFontColor;
+    color: #fff;
     text-decoration: none;
   }
 }
