@@ -75,7 +75,7 @@ a {
   }
 }
 code {
-  color: #ff7e9f;
+  color: #f0abba;
   background-color: #1a1725;
   a {
     color: $mainFontColor;
@@ -87,10 +87,10 @@ code {
   }
 }
 .text-danger {
-  color: #ff595f;
+  color: #f86395;
 }
 .text-info {
-  color: #f095ff;
+  color: #298ef3;
 }
 .alert-warning {
   background-color: $redColor;
@@ -204,4 +204,22 @@ button.list-group-item:focus {
   > * {
     margin: 0;
   }
+}
+
+.form-horizontal .form-group-lg .control-label {
+  font-size: 15px;
+}
+textarea,
+textarea.form-control,
+input.form-control,
+input[type=text],
+input[type=password],
+input[type=email],
+input[type=number],
+[type=text].form-control,
+[type=password].form-control,
+[type=email].form-control,
+[type=tel].form-control,
+[contenteditable].form-control {
+  font-size: 15px;
 }
