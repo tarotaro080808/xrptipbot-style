@@ -10,6 +10,7 @@ $thirdColor: #373e56;
 $redColor: #f5365c;
 $greenColor: #2dce89;
 $blueColor: #298ef3;
+$accentColor: #e24fcc;
 $baseH2Size: 22px;
 $baseH3Size: 20px;
 $baseFontSize: 16px;
@@ -154,7 +155,6 @@ code {
   }
 }
 .panel-body {
-  padding: 10px;
   > h5 {
     font-size: 18px;
     color: #fff;
@@ -166,7 +166,7 @@ code {
     }
   }
   > h3 {
-    font-size: 22px;
+    font-size: 24px;
     font-weight: 100;
   }
 }
@@ -248,5 +248,13 @@ input[type=number],
 [type=email].form-control,
 [type=tel].form-control,
 [contenteditable].form-control {
-  font-size: 15px;
+  font-size: 12px;
+  border: 1px solid $thirdColor;
+  border-radius: 6px;
+  padding: 5px 10px;
+  box-shadow: none;
+  &:focus {
+    box-shadow: none;
+    border: 1px solid $accentColor;
+  }
 }
