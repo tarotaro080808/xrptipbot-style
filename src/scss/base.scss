@@ -6,6 +6,7 @@
 
 $baseColor: #232338;
 $subColor: #2c2e46;
+$thirdColor: #373e56;
 $baseH2Size: 20px;
 $baseFontSize: 16px;
 $mainFontColor: #ffffff;
@@ -40,19 +41,31 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   color: $mainFontColor;
   font-family: $titleFontFamily;
 }
+h5, .h5 {
+  font-size: $baseFontSize;
+  font-weight: bold;
+}
 h2 {
   font-size: $baseH2Size;
 }
-a:hover, a:focus {
+a {
   color: $mainFontColor;
+  text-decoration: underline;
+  &:hover, &:focus {
+    color: $mainFontColor;
+    text-decoration: none;
+  }
 }
 
 .panel {
-  background: $subColor;
+  background: $baseColor;
 }
 .jumbotron {
-  background: $baseColor;
+  background: $subColor;
   .img-responsive {
     background: $mainFontColor;
+  }
+  p {
+    font-size: $baseFontSize;
   }
 }
