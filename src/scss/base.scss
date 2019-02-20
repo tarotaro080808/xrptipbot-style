@@ -154,11 +154,12 @@ code {
   }
 }
 .panel-body {
+  padding: 0 0 15px 0;
   > h5 {
     font-size: 15px;
     background: rgba(255,255,255,.4);
     color: $baseColor;
-    padding: 5px;
+    padding: 10px 0;
     border-radius: 2px;
     font-weight: 300;
     margin-top: 0;
