@@ -60,6 +60,9 @@ h2, .h2 {
 }
 h3, .h3 {
   font-size: $baseH3Size;
+  sup {
+    top: -0.2em;
+  }
 }
 a {
   color: $mainFontColor;
@@ -68,6 +71,24 @@ a {
     color: $mainFontColor;
     text-decoration: none;
   }
+}
+code {
+  color: #ff7e9f;
+  background-color: #1a1725;
+  a {
+    color: $baseColor;
+    text-decoration: none;
+  }
+}
+.text-danger {
+  color: #ff595f;
+}
+.text-info {
+  color: #f095ff;
+}
+
+.alert-warning {
+  background-color: $redColor;
 }
 
 .panel {
