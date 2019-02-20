@@ -95,6 +95,9 @@ code {
 .btn-warning {
   text-decoration: none;
   background-color: $greenColor;
+  &:hover {
+    transform: translateY(-1px);
+  }
   .text-dark {
     color: $mainFontColor;
   }
