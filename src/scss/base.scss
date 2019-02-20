@@ -96,11 +96,10 @@ code {
   text-decoration: none;
   background-color: $greenColor;
   &:hover {
-    transform: translateY(-1px);
+    transform: translateY(-3px);
     background-color: $greenColor;
   }
   &:active:hover {
-    transform: translateY(-1px);
     background-color: $greenColor;
   }
   .text-dark {
