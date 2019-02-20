@@ -1,5 +1,22 @@
+$baseColor: #092235;
+
 .navbar-inverse {
-  background: #092235;
+  background: $baseColor;
+}
+.navbar-brand {
+  padding-top: 14.5px;
+}
+// link of nav-bar-title
+.navbar-inverse .navbar-brand {
+  color: #ffffff;
+}
+// link of nav-bar
+.navbar-inverse .navbar-nav>li>a {
+  color: #ffffff;
+  :hover {
+    background: #ffffff;
+    color: $baseColor;
+  }
 }
 .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
   
