@@ -154,15 +154,20 @@ code {
   }
 }
 .panel-body {
-  padding: 0 0 15px 0;
+  padding: 10px;
   > h5 {
-    font-size: 15px;
-    background: $thirdColor;
+    font-size: 18px;
     color: #fff;
-    padding: 10px 0;
-    border-radius: 2px;
     font-weight: 300;
     margin-top: 0;
+    margin-bottom: 0;
+    i {
+      display: none;
+    }
+  }
+  > h3 {
+    font-size: 22px;
+    font-weight: 100;
   }
 }
 > .panel-heading {
