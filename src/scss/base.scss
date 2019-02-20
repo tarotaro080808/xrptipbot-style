@@ -7,7 +7,7 @@
 $baseColor: #232338;
 $subColor: #2c2e46;
 $thirdColor: #373e56;
-$greenColor: #2dce89;
+$greenColor: #090a0a;
 $redColor: #f5365c;
 $baseH2Size: 20px;
 $baseH3Size: 18px;
@@ -36,6 +36,11 @@ $titleFontFamily: 'Noto Sans JP', 'Roboto Condensed', sans-serif;
     background: $mainFontColor;
     color: $baseColor;
   }
+}
+.navbar-inverse .navbar-nav>.active>a,
+.navbar-inverse .navbar-nav>.active>a:hover,
+.navbar-inverse .navbar-nav>.active>a:focus {
+  background-color: $thirdColor;
 }
 body {
   font-family: $baseFontFamily;
@@ -67,6 +72,10 @@ a {
 
 .panel {
   background: $subColor;
+  .panel-heading {
+    background: $thirdColor;
+    color: $mainFontColor;
+  }
   .panel-footer {
     background: $thirdColor;
   }
@@ -121,4 +130,9 @@ button.list-group-item .list-group-item-heading {
 }
 a.list-group-item, button.list-group-item {
   color: $mainFontColor;
+}
+
+// テーブル
+.table-striped>tbody>tr:nth-of-type(odd) {
+  background-color: $thirdColor;
 }
