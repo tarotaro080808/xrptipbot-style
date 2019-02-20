@@ -66,6 +66,12 @@ a {
   color: #fff;
   &:hover, &:focus {
     color: #fff;
+    p & {
+      text-decoration: none;
+    }
+  }
+  p & {
+    text-decoration: underline;
   }
 }
 code {
