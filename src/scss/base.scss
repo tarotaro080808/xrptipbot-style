@@ -133,6 +133,9 @@ a.list-group-item, button.list-group-item {
 }
 
 // テーブル
+.table-hover>tbody>tr:hover {
+  background-color: $thirdColor;
+}
 .table-striped>tbody>tr:nth-of-type(odd) {
   background-color: $thirdColor;
 }

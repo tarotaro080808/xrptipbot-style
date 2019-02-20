@@ -1,2 +1,12 @@
-* {
+$greenColor: #2dce89;
+$redColor: #f5365c;
+$mainFontColor: #ffffff;
+
+
+.btn-warning {
+  text-decoration: none;
+  background-color: $greenColor;
+  .text-dark {
+    color: $mainFontColor;
+  }
 }
