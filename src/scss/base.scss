@@ -66,18 +66,30 @@ a {
 }
 
 .panel {
-  background: $baseColor;
+  background: $subColor;
   .panel-footer {
     background: $thirdColor;
   }
 }
-.jumbotron {
-  background: $subColor;
-  .img-responsive {
-    background: $mainFontColor;
-  }
-  p {
-    font-size: $baseFontSize;
+.container {
+  .jumbotron {
+    background: $baseColor;
+    .panel-body {
+      > h5 {
+        font-size: 14px;
+        background: rgba(255,255,255,.6);
+        color: $baseColor;
+        padding: 5px;
+        border-radius: 2px;
+        font-weight: 400;
+      }
+    }  
+    .img-responsive {
+      background: $mainFontColor;
+    }
+    p {
+      font-size: $baseFontSize;
+    }
   }
 }
 
