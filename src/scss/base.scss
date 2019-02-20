@@ -90,6 +90,7 @@ code {
     border-bottom: 1px solid $mainFontColor !important;
     &:hover {
       border-bottom: none;
+      text-decoration: none;
     }
   }
 }
