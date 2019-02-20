@@ -10,6 +10,7 @@ $thirdColor: #373e56;
 $greenColor: #2dce89;
 $redColor: #f5365c;
 $baseH2Size: 20px;
+$baseH3Size: 18px;
 $baseFontSize: 16px;
 $mainFontColor: #ffffff;
 $baseFontFamily: 'Noto Sans JP', 'Lato', sans-serif;
@@ -18,9 +19,10 @@ $titleFontFamily: 'Noto Sans JP', 'Roboto Condensed', sans-serif;
 
 .navbar-inverse {
   background: $baseColor;
-}
-.navbar-brand {
-  padding-top: 14.5px;
+  .navbar-brand {
+    padding-top: 14.5px;
+    text-decoration: none;
+  }
 }
 // link of nav-bar-title
 .navbar-inverse .navbar-brand {
@@ -48,8 +50,11 @@ h5, .h5 {
   font-size: $baseFontSize;
   font-weight: bold;
 }
-h2 {
+h2 .h2 {
   font-size: $baseH2Size;
+}
+h3, .h3 {
+  font-size: $baseH3Size;
 }
 a {
   color: $mainFontColor;
@@ -83,4 +88,18 @@ a {
   .panel-success & {
     background: $greenColor;
   }
+}
+
+.panel>.list-group, .panel>.panel-collapse>.list-group {
+  padding-left: 0;
+  padding-right: 0;
+}
+.list-group-item {
+  background: $subColor;
+  color: $mainFontColor;
+  text-decoration: none;
+  border: 1px solid #3a3a3a;
+}
+a.list-group-item, button.list-group-item {
+  color: $mainFontColor;
 }
