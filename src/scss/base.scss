@@ -7,8 +7,9 @@
 $baseColor: #232338;
 $subColor: #2c2e46;
 $thirdColor: #373e56;
-$greenColor: #2dce89;
 $redColor: #f5365c;
+$greenColor: #2dce89;
+$blueColor: #298ef3;
 $baseH2Size: 20px;
 $baseH3Size: 18px;
 $baseFontSize: 16px;
@@ -90,10 +91,24 @@ code {
   color: #f86395;
 }
 .text-info {
-  color: #298ef3;
+  color: $blueColor;
 }
 .alert-warning {
   background-color: $redColor;
+}
+.btn-primary {
+  text-decoration: none;
+  background-image: $blueColor;
+  &:hover {
+    transform: translateY(-3px);
+    background-color: $blueColor;
+  }
+  &:active:hover {
+    background-color: $blueColor;
+  }
+  .text-dark {
+    color: $mainFontColor;
+  }
 }
 .btn-warning {
   text-decoration: none;
