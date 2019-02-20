@@ -86,9 +86,15 @@ code {
 .text-info {
   color: #f095ff;
 }
-
 .alert-warning {
   background-color: $redColor;
+}
+.btn-warning {
+  text-decoration: none;
+  background-color: $greenColor;
+  .text-dark {
+    color: $mainFontColor;
+  }
 }
 
 .panel {
