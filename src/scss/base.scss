@@ -30,7 +30,7 @@ $titleFontFamily: 'Roboto Condensed', 'Noto Sans JP', sans-serif;
     text-decoration: none;
     &:hover {
       background: $thirdColor;
-      color: $baseColor;
+      color: $mainFontColor;
     }
   }
   .navbar-nav>.active>a,
