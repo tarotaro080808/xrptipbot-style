@@ -10,8 +10,8 @@ $thirdColor: #373e56;
 $redColor: #f5365c;
 $greenColor: #2dce89;
 $blueColor: #298ef3;
-$baseH2Size: 20px;
-$baseH3Size: 18px;
+$baseH2Size: 22px;
+$baseH3Size: 20px;
 $baseFontSize: 16px;
 $mainFontColor: #efefef;
 $baseFontFamily: 'Lato', 'Noto Sans JP', sans-serif;
@@ -59,8 +59,13 @@ h2, .h2 {
 }
 h3, .h3 {
   font-size: $baseH3Size;
+  font-weight: normal;
   sup {
     top: -0.2em;
+  }
+  b {
+    font-weight: normal;
+    font-weight: 100;
   }
 }
 a {
