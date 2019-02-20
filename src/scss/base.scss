@@ -50,7 +50,7 @@ h5, .h5 {
   font-size: $baseFontSize;
   font-weight: bold;
 }
-h2 .h2 {
+h2, .h2 {
   font-size: $baseH2Size;
 }
 h3, .h3 {
@@ -90,7 +90,8 @@ a {
   }
 }
 
-.panel>.list-group, .panel>.panel-collapse>.list-group {
+.panel>.list-group,
+.panel>.panel-collapse>.list-group {
   padding-left: 0;
   padding-right: 0;
 }
@@ -99,6 +100,10 @@ a {
   color: $mainFontColor;
   text-decoration: none;
   border: 1px solid #3a3a3a;
+}
+a.list-group-item .list-group-item-heading,
+button.list-group-item .list-group-item-heading {
+  color: $mainFontColor;
 }
 a.list-group-item, button.list-group-item {
   color: $mainFontColor;
