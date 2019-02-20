@@ -136,3 +136,11 @@ a.list-group-item, button.list-group-item {
 .table-striped>tbody>tr:nth-of-type(odd) {
   background-color: $thirdColor;
 }
+.table>thead>tr>th,
+.table>tbody>tr>th,
+.table>tfoot>tr>th,
+.table>thead>tr>td,
+.table>tbody>tr>td,
+.table>tfoot>tr>td {
+  border-top: 1px solid rgba(255,255,255,.1);
+}
