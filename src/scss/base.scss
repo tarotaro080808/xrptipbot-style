@@ -12,7 +12,7 @@ $redColor: #f5365c;
 $baseH2Size: 20px;
 $baseH3Size: 18px;
 $baseFontSize: 16px;
-$mainFontColor: #ffffff;
+$mainFontColor: #f3f3f3;
 $baseFontFamily: 'Noto Sans JP', 'Lato', sans-serif;
 $titleFontFamily: 'Noto Sans JP', 'Roboto Condensed', sans-serif;
 
@@ -169,6 +169,9 @@ a.list-group-item, button.list-group-item {
   border-top: 1px solid rgba(255,255,255,.1);
 }
 
+.list-group-item-text {
+  line-height: 1.6;
+}
 a.list-group-item:hover,
 button.list-group-item:hover,
 a.list-group-item:focus,
