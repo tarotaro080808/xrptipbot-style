@@ -98,7 +98,7 @@ code {
 }
 .btn-primary {
   text-decoration: none;
-  background-image: $blueColor;
+  background-color: $blueColor;
   &:hover {
     transform: translateY(-3px);
     background-color: $blueColor;
