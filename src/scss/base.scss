@@ -78,7 +78,7 @@ code {
   a {
     color: $mainFontColor;
     text-decoration: none;
-    border-bottom: 1px solid $mainFontColor;
+    border-bottom: 1px solid $mainFontColor !important;
   }
 }
 .text-danger {
