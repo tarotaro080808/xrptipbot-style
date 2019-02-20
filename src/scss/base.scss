@@ -5,10 +5,10 @@
 // font-family: 'Roboto Condensed', sans-serif;
 
 $baseColor: #232338;
-$subColor: #232338;
+$subColor: #2c2e46;
 $baseH2Size: 20px;
 $baseFontSize: 16px;
-$mainColor: #ffffff;
+$mainFontColor: #ffffff;
 $baseFontFamily: 'Noto Sans JP', 'Lato', sans-serif;
 $titleFontFamily: 'Noto Sans JP', 'Roboto Condensed', sans-serif;
 
@@ -21,23 +21,23 @@ $titleFontFamily: 'Noto Sans JP', 'Roboto Condensed', sans-serif;
 }
 // link of nav-bar-title
 .navbar-inverse .navbar-brand {
-  color: $mainColor;
+  color: $mainFontColor;
 }
 // link of nav-bar
 .navbar-inverse .navbar-nav>li>a {
-  color: $mainColor;
+  color: $mainFontColor;
   &:hover {
-    background: $mainColor;
+    background: $mainFontColor;
     color: $baseColor;
   }
 }
 body {
   font-family: $baseFontFamily;
   background: $baseColor;
-  color: $mainColor;
+  color: $mainFontColor;
 }
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-  color: $mainColor;
+  color: $mainFontColor;
   font-family: $titleFontFamily;
 }
 h2 {
