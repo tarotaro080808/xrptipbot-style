@@ -250,11 +250,14 @@ input[type=number],
 [contenteditable].form-control {
   font-size: 12px;
   border: 1px solid $thirdColor;
-  border-radius: 6px;
+  border-radius: 6px !important;
   padding: 5px 10px;
   box-shadow: none;
   &:focus {
     box-shadow: none;
-    border: 1px solid $accentColor;
+    border: 1px solid $blueColor;
+  }
+  label & {
+    margin-bottom: 0 !important;
   }
 }
