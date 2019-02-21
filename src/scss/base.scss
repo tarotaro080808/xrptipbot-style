@@ -270,8 +270,8 @@ input[type=number],
     border: 1px solid $blueColor;
   }
 }
-.form-group > input + label {
-  margin-bottom: 0 !important;
+.form-group > input[id^="escrow"] {
+  margin-top: 10px !important;
 }
 
 // ILP入金
