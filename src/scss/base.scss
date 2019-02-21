@@ -94,6 +94,11 @@ code {
       text-decoration: none;
     }
   }
+  &.text-primary {
+    color: $blueColor;
+    border: 1px solid $blueColor;
+    background-color: transparent;
+  }
 }
 .text-danger {
   color: #f86395;
