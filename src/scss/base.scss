@@ -41,6 +41,12 @@ $titleFontFamily: 'Roboto Condensed', 'Noto Sans JP', sans-serif;
     background-color: $thirdColor;
     color: $mainFontColor;
   }
+  .navbar-toggle .icon-bar {
+    background-color: rgba(255, 255, 255, 0.6);
+  }
+  .navbar-collapse, .navbar-form {
+    border-color: #000;
+  }
 }
 body {
   font-family: $baseFontFamily;
@@ -96,10 +102,6 @@ code {
   }
   &.text-primary {
     color: $blueColor;
-    border: 1px solid $blueColor;
-    background-color: transparent;
-    padding: 5px 15px;
-    margin-bottom: 10px;
   }
 }
 .text {
@@ -158,6 +160,9 @@ code {
 }
 .panel {
   background: $subColor;
+  box-shadow: none;
+  border: 1px solid $baseColor;
+  border-radius: .25rem;
   .panel-heading {
     background: $thirdColor;
     color: #fff;
