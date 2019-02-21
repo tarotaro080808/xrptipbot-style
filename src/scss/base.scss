@@ -84,7 +84,7 @@ a {
 }
 code {
   color: #f0abba;
-  background-color: #322f3e;
+  background-color: #252729;
   a {
     color: $mainFontColor;
     text-decoration: none;
@@ -273,6 +273,7 @@ input[type=number],
   border-radius: 6px !important;
   padding: 5px 10px;
   box-shadow: none;
+  color: #ffffff;
   &:focus {
     box-shadow: none;
     border: 1px solid $blueColor;
