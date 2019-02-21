@@ -116,6 +116,9 @@ code {
 .alert-warning {
   background-color: $redColor;
 }
+.alert-success {
+  background-color: $greenColor;
+}
 .btn-primary {
   text-decoration: none;
   background-color: $blueColor;
@@ -266,9 +269,9 @@ input[type=number],
     box-shadow: none;
     border: 1px solid $blueColor;
   }
-  label {
-    margin-bottom: 0 !important;
-  }
+}
+.form-group > input + label {
+  margin-bottom: 0 !important;
 }
 
 // ILP入金
