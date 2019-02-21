@@ -130,11 +130,11 @@ code {
   &-primary {
     text-decoration: none;
     background-color: $blueColor;
-    &:hover {
+    &:hover, &:focus {
       transform: translateY(-3px);
       background-color: $blueColor;
     }
-    &:active:hover {
+    &:active:hover, &:active:focus {
       background-color: $blueColor;
     }
     .text-dark {
@@ -144,11 +144,11 @@ code {
   &-warning {
     text-decoration: none;
     background-color: $greenColor;
-    &:hover {
+    &:hover, &:focus {
       transform: translateY(-3px);
       background-color: $greenColor;
     }
-    &:active:hover {
+    &:active:hover, &:active:focus {
       background-color: $greenColor;
     }
     .text-dark {
