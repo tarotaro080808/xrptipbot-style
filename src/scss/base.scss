@@ -102,52 +102,60 @@ code {
     margin-bottom: 10px;
   }
 }
-.text-danger {
-  color: #f86395;
-}
-.text-info {
-  color: $blueColor;
-}
-.text-primary {
-  i & {
-    color: $mainFontColor;
+.text {
+  &-success {
+    color: $greenColor;
+  }
+  &-danger {
+    color: #f86395;
+  }
+  &-info {
+    color: $blueColor;
+  }
+  &-primary {
+    i & {
+      color: $mainFontColor;
+    }
   }
 }
-.alert-warning {
-  background-color: $redColor;
-}
-.alert-success {
-  background-color: $greenColor;
-}
-.btn-primary {
-  text-decoration: none;
-  background-color: $blueColor;
-  &:hover {
-    transform: translateY(-3px);
-    background-color: $blueColor;
+.alert {
+  &-warning {
+    background-color: $redColor;
   }
-  &:active:hover {
-    background-color: $blueColor;
-  }
-  .text-dark {
-    color: $mainFontColor;
-  }
-}
-.btn-warning {
-  text-decoration: none;
-  background-color: $greenColor;
-  &:hover {
-    transform: translateY(-3px);
+  &-success {
     background-color: $greenColor;
   }
-  &:active:hover {
-    background-color: $greenColor;
+}
+.btn {
+  &-primary {
+    text-decoration: none;
+    background-color: $blueColor;
+    &:hover {
+      transform: translateY(-3px);
+      background-color: $blueColor;
+    }
+    &:active:hover {
+      background-color: $blueColor;
+    }
+    .text-dark {
+      color: $mainFontColor;
+    }
   }
-  .text-dark {
-    color: $mainFontColor;
+  &-warning {
+    text-decoration: none;
+    background-color: $greenColor;
+    &:hover {
+      transform: translateY(-3px);
+      background-color: $greenColor;
+    }
+    &:active:hover {
+      background-color: $greenColor;
+    }
+    .text-dark {
+      color: $mainFontColor;
+    }
   }
 }
-
 .panel {
   background: $subColor;
   .panel-heading {
